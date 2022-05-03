@@ -1,0 +1,21 @@
+// HEADER-SECTIOn
+
+.page-header {
+  border-bottom: 1px solid #ececec;
+}
+
+.page-header__container {
+  display: flex;
+  align-items: center;
+
+  margin: 0 auto;
+  padding: 0px 15px;
+  width: 1200px;
+}
+
+// MAIN-NAV
+
+.main-nav {
+  display: flex;
+  align-items: center;
+}
