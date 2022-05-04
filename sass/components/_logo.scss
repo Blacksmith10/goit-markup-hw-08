@@ -1,6 +1,28 @@
-// LOGO
+// .main-nav__logo {
+//   color: $logo-main-color;
+//   text-decoration: none;
+//   @extend %fonts-raleway;
+// }
+
+// .logo-blue {
+//   color: $accent-color;
+//   text-decoration: none;
+//   @extend %fonts-raleway;
+// }
+
+// .footer__logo {
+//   display: inline-block;
+//   margin-bottom: 20px;
+
+//   color: $logo-second-color;
+//   text-decoration: none;
+//   @extend %fonts-raleway;
+// }
 
 .main-nav__logo {
+  display: inline-block;
+  padding: 16px 0px;
+
   color: $logo-main-color;
   text-decoration: none;
   @extend %fonts-raleway;

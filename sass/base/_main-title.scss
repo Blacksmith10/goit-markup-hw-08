@@ -1,0 +1,17 @@
+%main-title {
+  margin: 0 auto 30px;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 1.17;
+  text-align: center;
+  color: $secondary-text-color;
+}
+
+.main-title {
+  @extend %main-title;
+  @media screen and (min-width: 1200px) {
+    margin: 0 auto 50px;
+    font-size: 36px;
+    line-height: 1.16;
+  }
+}
