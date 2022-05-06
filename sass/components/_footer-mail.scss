@@ -37,6 +37,12 @@
 // }
 
 .mail-container {
+  @media screen and (min-width: 768px) and (max-width: 1199px) {
+    width: 450px;
+    margin: 60px auto 0px;
+    text-align: center;
+  }
+
   @media screen and (min-width: 1200px) {
     margin-left: 93px;
   }
@@ -61,7 +67,6 @@
 }
 
 .mail-form__input {
-  width: 450px;
   margin: 0px;
   padding: 15px 16px;
 
@@ -80,6 +85,10 @@
     font-size: 16px;
     line-height: 1.25;
     color: rgba(255, 255, 255, 0.6);
+  }
+
+  @media screen and (min-width: 480px) {
+    width: 450px;
   }
 
   @media screen and (min-width: 1200px) {

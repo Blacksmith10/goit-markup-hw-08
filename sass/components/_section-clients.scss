@@ -51,37 +51,18 @@
   margin: -15px;
   padding: 0px;
   list-style: none;
-}
 
-.clients-links__icon {
-  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  display: flex;
-  width: 210px;
-  height: 92px;
-  fill: $icon-main-color;
-  align-items: center;
-  justify-content: center;
-
-  &:hover,
-  &:focus {
-    fill: $accent-color;
-  }
-
-  @media screen and (min-width: 768px) {
-    width: 226px;
-  }
-  @media screen and (min-width: 1200px) {
-    width: 170px;
+  @media screen and (max-width: 480px) {
+    justify-content: center;
   }
 }
 
 .clients-links__list {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  width: 210px;
+  // width: 210px;
   height: 92px;
   border: 1px solid $icon-main-color;
   border-radius: 4px;
-  margin: 15px;
 
   &:hover,
   &:focus {
@@ -92,9 +73,42 @@
       margin-right: 30px;
     }
   }
+  @media screen and (max-width: 767px) {
+    width: 210px;
+  }
   @media screen and (min-width: 768px) {
     width: 226px;
   }
+
+  @media screen and (max-width: 1199px) {
+    margin: 15px;
+  }
+  @media screen and (min-width: 1200px) {
+    width: 170px;
+  }
+}
+
+.clients-links__icon {
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  display: flex;
+  height: 92px;
+  fill: $icon-main-color;
+  align-items: center;
+  justify-content: center;
+
+  &:hover,
+  &:focus {
+    fill: $accent-color;
+  }
+
+  @media screen and (max-width: 767px) {
+    width: 210px;
+  }
+
+  @media screen and (min-width: 768px) {
+    width: 226px;
+  }
+
   @media screen and (min-width: 1200px) {
     width: 170px;
   }
