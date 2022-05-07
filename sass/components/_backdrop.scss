@@ -126,8 +126,14 @@
   }
 
   @media screen and (min-width: 480px) {
-    width: 450px;
+    max-width: 450px;
     margin: 0px auto;
+  }
+
+  @media screen and (min-width: 1200px) {
+    padding: 40px 39px 40px 41px;
+    min-width: 528px;
+    min-height: 581px;
   }
 }
 
