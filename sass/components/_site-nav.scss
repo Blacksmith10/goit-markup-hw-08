@@ -63,12 +63,24 @@
   @media screen and (max-width: 767px) {
     margin-bottom: 306px;
   }
+
+  @media screen and (min-width: 768px) {
+    display: flex;
+    margin: 0 0 0 88px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    margin: 0 0 0 93px;
+  }
 }
 
 .site-nav__item {
   &:not(:last-child) {
     @media screen and (max-width: 767px) {
       margin-bottom: 32px;
+    }
+    @media screen and (min-width: 768px) {
+      margin-right: 50px;
     }
   }
 }
@@ -87,6 +99,12 @@
     letter-spacing: 0.02em;
   }
 
+  @media screen and (min-width: 768px) {
+    position: relative;
+    padding-top: 32px;
+    padding-bottom: 32px;
+  }
+
   &--current {
     color: $accent-color;
   }
@@ -100,6 +118,7 @@
 .site-nav__link--current::after {
   @media screen and (min-width: 768px) {
     content: '';
+    position: absolute;
     left: 0;
     bottom: 0;
 
