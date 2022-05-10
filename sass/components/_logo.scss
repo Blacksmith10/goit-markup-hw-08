@@ -3,7 +3,7 @@
   text-decoration: none;
   @extend %fonts-raleway;
 
-  @media screen and (max-width: 480px) {
+  @media screen and (max-width: $mobile) {
     padding: 16px 0px;
   }
 }

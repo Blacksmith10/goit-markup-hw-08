@@ -54,17 +54,17 @@
   .backdrop.is-hidden & {
     transform: scale(1.2);
 
-    @media screen and (min-width: 1200px) {
+    @media screen and (min-width: $desktop) {
       transform: translate(-50%, -50%) scale(1.2);
     }
   }
 
-  @media screen and (min-width: 480px) {
+  @media screen and (min-width: $mobile) {
     max-width: 450px;
     margin: 0px auto;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: $desktop) {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -85,7 +85,7 @@
   text-align: center;
   color: $secondary-text-color;
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: $desktop) {
     line-height: 1.15;
   }
 }

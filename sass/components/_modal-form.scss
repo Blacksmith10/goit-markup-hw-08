@@ -1,9 +1,9 @@
 .form {
-  @media screen and (min-width: 480px) {
+  @media screen and (min-width: $mobile) {
     width: 370px;
   }
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: $desktop) {
     width: 448px;
   }
 }
@@ -88,7 +88,7 @@
   letter-spacing: 0.03em;
   margin-left: 8px;
 
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: $desktop) {
     font-size: 14px;
     line-height: 1.71;
   }

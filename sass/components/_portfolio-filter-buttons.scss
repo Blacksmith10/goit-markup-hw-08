@@ -10,20 +10,20 @@
   list-style: none;
 
   @media screen and (max-width: 767px) {
-    display: inline-flex;
+    display: flex;
     flex-wrap: wrap;
     height: 91px;
     align-content: space-between;
   }
 
-  @media screen and (min-width: 768px) {
+  @media screen and (min-width: $tablet) {
     margin: 0 auto 30px;
     display: flex;
     justify-content: center;
     color: $secondary-text-color;
     list-style: none;
   }
-  @media screen and (min-width: 1200px) {
+  @media screen and (min-width: $desktop) {
     margin: 0 auto 50px;
   }
 }
