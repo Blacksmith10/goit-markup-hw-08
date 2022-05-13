@@ -12,7 +12,7 @@
   @media screen and (max-width: 767px) {
     display: flex;
     flex-wrap: wrap;
-    height: 91px;
+
     align-content: space-between;
   }
 
@@ -28,8 +28,15 @@
   }
 }
 
-.filters__item:not(:last-child) {
-  margin-right: 8px;
+.filters__item {
+  &:not(:last-child) {
+    margin-right: 8px;
+  }
+  @media screen and (max-width: 767px) {
+    &:nth-child(-n + 3) {
+      margin-bottom: 15px;
+    }
+  }
 }
 
 .filters__button {
