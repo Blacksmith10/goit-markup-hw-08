@@ -69,11 +69,14 @@
 }
 
 .nav-contacts__icon {
-  margin-right: 10px;
+  margin-right: 8px;
   fill: currentColor;
 
   @media screen and (max-width: 767px) {
     display: none;
+  }
+  @media screen and (min-width: 1200px) {
+    margin-right: 10px;
   }
 }
 
@@ -85,12 +88,13 @@
     letter-spacing: 0.02em;
     color: $accent-color;
   }
+  @media screen and (max-width: 480px) {
+    font-size: 24px;
+  }
 }
 
 .nav-social {
   display: flex;
-  flex-wrap: wrap;
-  margin: 0px auto;
   padding: 0px;
   list-style: none;
 
@@ -109,6 +113,9 @@
     border-right: 1px solid rgba(33, 33, 33, 0.2);
     padding-right: 10px;
     margin-right: 10px;
+  }
+  @media screen and (max-width: 480px) {
+    font-size: 10px;
   }
 }
 
