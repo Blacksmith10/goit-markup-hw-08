@@ -1787,12 +1787,6 @@ img {
   }
 }
 
-@media screen and (min-width: 480px) {
-  .filter-products__photo {
-    height: 100%;
-  }
-}
-
 .filter-products__overlay {
   position: absolute;
   opacity: 0;
